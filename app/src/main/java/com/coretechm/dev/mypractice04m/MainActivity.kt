@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         println((binding.root is View).toString())
 
+        println("test")
+
         Snackbar.make(binding.root, "snackBar", Snackbar.LENGTH_SHORT).show()
     }
 
